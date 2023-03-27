@@ -1,0 +1,122 @@
+#Q1 
+
+ a = int(input("Enter your marks :"))
+if (a>90):
+    print("You got A grade") 
+elif (a>80 and a<=90):
+    print("You got B grade")
+elif (a>=60 and a<=80):
+    print("You got c grade")
+else:
+    print("You got D grade")
+
+#Q2
+
+b = int(input("Enter you'r bike price :\n")) 
+if (b>100000):
+    print("The road tax that you need to pay is :" + str(15/100*b))
+elif (b<=100000 and b>50000):
+    print("The road tax that you need to pay is :" + str(10/100*b))
+else :
+    print("The road tax that you need to pay is :" + str(5/100*b))
+
+#Q3
+
+c = input("Enter a city name among Delhi, Agra, Jaipur :\n") 
+if (c == "Delhi" or c == "delhi" or c == "DELHI"):
+    print("Tallest monument in Delhi is Red Fort")
+elif (c == "Agra" or c == "agra" or c == "AGRA"):
+    print("Tallest monument in Agra is Taj Mahal")
+elif (c == "Jaipur" or c == "jaipur" or c == "JAIPUR"):
+    print("Tallest monument in Jaipur is Jaj Mahal")
+
+#Q4
+
+d = int(input("Enter a number :\n"))
+count = 0
+while d != 1 and d%3 == 0:
+    if (d%3 == 0):
+        d = d/3
+        if (d>10):
+            count +=1 
+        else:
+            break
+    else:
+        count = count 
+print( "The given number can be divided by 3 in " + str(count) + " times until the number is greater than 10")
+
+#Q5
+
+
+#While loop is used when we want to iterate a given statement until its true. 
+#Example :-
+
+five = int(input("Enter a positive number :"))
+count = 0
+while ( five % 10 == 0):
+    five = five/10 
+    count += 1 
+print("You'r entered number is " + str(count) + " times divisible by 10") 
+
+#Q6
+
+
+#Pattern-1 
+i = 1
+while i <= 5:
+    j = 1
+    while j <= i:
+        print("*", end="")
+        j += 1
+    print()
+    i += 1
+#Pattern-2
+
+i = 1
+while i <= 5:
+    j = 1
+    while j <= i:
+        print("j", end="")
+        j += 1
+    print()
+    i += 1
+
+
+#Pattern-3 
+i = 1
+while i <= 5:
+    j = 1
+    while j <= i:
+        print("_", end="")
+        j += 1
+    print()
+    i += 1
+
+#Q-7 
+
+f = 10
+while(f>=1):
+    print(str(f) + "\n") 
+    f-=1
+#Q-8
+
+f = 10
+while(f>=1):
+    print(str(f) + "\n") 
+    f-=1
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
