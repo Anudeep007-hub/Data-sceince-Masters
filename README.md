@@ -1,2 +1,2 @@
 # Data-sceince-Masters
- I am a student at PWskills
+ I am a student in PWskills
